@@ -4,6 +4,15 @@ First off, thank you for contributing! All contributions, big or small, are real
 
 The following is a set of guidelines for contributing to CoffeeScript App Skeleton, which is hosted at [Coffeescript App Skeleton](https://github.com/sarahquigley/coffeescript-app-skeleton) on GitHub. These are just guidelines, not rules, use your best judgment and feel free to propose changes to this document in a pull request.
 
+#### Table Of Contents
+
+* [Submitting Issues](#submitting-issues)
+* [Your First Contribution](#your-first-contribution)
+* [Pull Requests](#pull-requests)
+* [Git Commit Messages](#git-commit-messages)
+* [CoffeeScript Styleguide](#coffeescript-styleguide)
+* [Spec Styleguide](#spec-styleguide)
+* [Documentation Styleguide](#documentation-styleguide)
 
 ## Submitting Issues
 
@@ -40,7 +49,7 @@ Feel free to request new features or suggest enhancements to this project.
 
 ## Git Commit Messages
 
-* Use the present tense ("Add feature" not "Added feature").
+* Use the present tense ("Add feature" not "Added feature" or "Adds feature").
 * Use the imperative mood ("Move cursor to..." not "Moves cursor to...").
 * Limit the first line to 72 characters or less.
 * Reference issues and pull requests liberally.
