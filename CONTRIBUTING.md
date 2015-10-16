@@ -7,7 +7,6 @@ The following is a set of guidelines for contributing to CoffeeScript App Skelet
 #### Table Of Contents
 
 * [Submitting Issues](#submitting-issues)
-* [Your First Contribution](#your-first-contribution)
 * [Pull Requests](#pull-requests)
 * [Git Commit Messages](#git-commit-messages)
 * [CoffeeScript Styleguide](#coffeescript-styleguide)
