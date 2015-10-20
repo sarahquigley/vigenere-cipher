@@ -1,4 +1,4 @@
-# Coffeescript App Skeleton
+# Vigenere Cipher
 
 A skeleton for creating web applications in Coffeescript (and SCSS).
 
