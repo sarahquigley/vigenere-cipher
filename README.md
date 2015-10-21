@@ -1,6 +1,6 @@
 # Vigenere Cipher
 
-A skeleton for creating web applications in Coffeescript (and SCSS).
+Tiny app for playing around with Vigenere ciphers.
 
 
 ## Installing dependencies
