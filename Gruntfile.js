@@ -112,6 +112,29 @@ module.exports = function(grunt) {
               '*/**/*.html',
               '!bower_components/**/*.html',
             ]
+          },
+          {
+            expand: true,
+            dot: true,
+            cwd: '<%= config.dirs.app %>/bower_components/bootstrap-sass/assets/',
+            dest: '<%= config.dirs.build %>',
+            src: [
+              'fonts/bootstrap/*',
+            ]
+          }
+        ]
+      },
+
+      dev: {
+        files: [
+          {
+            expand: true,
+            dot: true,
+            cwd: '<%= config.dirs.app %>/bower_components/bootstrap-sass/assets/',
+            dest: '<%= config.dirs.dev %>',
+            src: [
+              'fonts/bootstrap/*',
+            ]
           }
         ]
       }
@@ -355,6 +378,7 @@ module.exports = function(grunt) {
 
     grunt.task.run([
       'clean:dev',
+      'copy:dev',
       'coffee:dev',
       'wiredep:dev',
       'sass:dev',
