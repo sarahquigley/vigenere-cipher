@@ -10,11 +10,13 @@
     <!-- build:css(.dev) styles/main.min.css -->
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <!-- endbuild -->
+    <link href='https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
     <div class="container">
-      <h1>Vigenere Cipher</h1>
+      <h1 class="text-center">Vigenere Cipher</h1>
+      <br/>
 
       <form>
         <div class="form-group">
@@ -23,9 +25,16 @@
         <div class="form-group">
           <textarea id="vigenere-text" class="form-control" placeholder="text" rows="15"></textarea>
         </div>
-        <button id="vigenere-encipher" class="btn btn-default">Encipher</button>
-        <button id="vigenere-decipher" class="btn btn-default">Decipher</button>
+        <div>
+          <button id="vigenere-encipher" class="btn btn-default">Encipher</button>
+          <button id="vigenere-decipher" class="btn btn-default">Decipher</button>
+        </div>
       </form>
+
+      <div class="text-center">
+        <h2><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></h2>
+      </div>
+
       <br/>
       <div id="vigenere-output" class="well" style="white-space: pre-wrap">
       </div>
