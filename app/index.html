@@ -13,14 +13,29 @@
   </head>
 
   <body>
-    <div>
-      <h1>Hello!</h1>
-      <p>Welcome to Vigenere Cipher.</p>
+    <div class="container">
+      <h1>Vigenere Cipher</h1>
+
+      <form>
+        <div class="form-group">
+          <input type="text" id="vigenere-key" class="form-control" placeholder="key">
+        </div>
+        <div class="form-group">
+          <textarea id="vigenere-text" class="form-control" placeholder="text" rows="15"></textarea>
+        </div>
+        <button id="vigenere-encipher" class="btn btn-default">Encipher</button>
+        <button id="vigenere-decipher" class="btn btn-default">Decipher</button>
+      </form>
+      <br/>
+      <div id="vigenere-output" class="well" style="white-space: pre-wrap">
+      </div>
     </div>
 
     <!-- build:js(app) scripts/vendor.min.js -->
     <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/lodash/lodash.js"></script>
+    <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
