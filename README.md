@@ -2,7 +2,7 @@
 
 Tiny app for playing around with Vigenere ciphers.
 
-See live version: [Vigenere Cipher](http://sarahquigley.net/vigenere-cipher/)
+See live version: [Vigenere Cipher](http://vigenere-cipher.sarahquigley.net/)
 
 
 ## Installing dependencies
